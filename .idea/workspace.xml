@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="第一次提交">
+    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="change the dir">
+      <change afterPath="$PROJECT_DIR$/forward/str魔法方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/一个类创建多个对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/带参数的init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/类中的self.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/类外面添加获取对象属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/类里面获取对象属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/面向对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/魔法方法del.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/魔法方法init.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,52 +54,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Dict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Multiplication.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bianli.executor&quot;: &quot;Run&quot;,
-    &quot;Python.capitalize.executor&quot;: &quot;Run&quot;,
-    &quot;Python.change.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.del.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.enumerate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find.executor&quot;: &quot;Run&quot;,
-    &quot;Python.for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.in.executor&quot;: &quot;Run&quot;,
-    &quot;Python.key.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nesting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.piece.executor&quot;: &quot;Run&quot;,
-    &quot;Python.range.executor&quot;: &quot;Run&quot;,
-    &quot;Python.replace_join.executor&quot;: &quot;Run&quot;,
-    &quot;Python.set.executor&quot;: &quot;Run&quot;,
-    &quot;Python.setadd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.setdel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.star.executor&quot;: &quot;Run&quot;,
-    &quot;Python.startwith.executor&quot;: &quot;Run&quot;,
-    &quot;Python.strip.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sumdemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.列表推导式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.加号运算符.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Dict.executor": "Run",
+    "Python.Multiplication.executor": "Run",
+    "Python.Triangle.executor": "Run",
+    "Python.add.executor": "Run",
+    "Python.bianli.executor": "Run",
+    "Python.capitalize.executor": "Run",
+    "Python.change.executor": "Run",
+    "Python.copy.executor": "Run",
+    "Python.del.executor": "Run",
+    "Python.demo1.executor": "Run",
+    "Python.enumerate.executor": "Run",
+    "Python.find.executor": "Run",
+    "Python.for.executor": "Run",
+    "Python.in.executor": "Run",
+    "Python.key.executor": "Run",
+    "Python.list.executor": "Run",
+    "Python.nesting.executor": "Run",
+    "Python.piece.executor": "Run",
+    "Python.range.executor": "Run",
+    "Python.replace_join.executor": "Run",
+    "Python.set.executor": "Run",
+    "Python.setadd.executor": "Run",
+    "Python.setdel.executor": "Run",
+    "Python.star.executor": "Run",
+    "Python.startwith.executor": "Run",
+    "Python.strip.executor": "Run",
+    "Python.str魔法方法.executor": "Run",
+    "Python.sumdemo1.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.while.executor": "Run",
+    "Python.一个类创建多个对象.executor": "Run",
+    "Python.列表推导式.executor": "Run",
+    "Python.加号运算符.executor": "Run",
+    "Python.带参数的init.executor": "Run",
+    "Python.类中的self.executor": "Run",
+    "Python.类外面添加获取对象属性.executor": "Run",
+    "Python.类里面获取对象属性.executor": "Run",
+    "Python.面向对象.executor": "Run",
+    "Python.魔法方法init.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.enumerate">
-    <configuration name="加号运算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\py-code\PythonTest\Grammer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.魔法方法del">
+    <configuration name="类里面获取对象属性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,12 +121,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Init" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\加号运算符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Init/类里面获取对象属性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="enumerate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="魔法方法del" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\enumerate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/魔法方法del.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="魔法方法init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\range.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/魔法方法init.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="setdel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="带参数的init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,12 +213,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\setdel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/带参数的init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="str魔法方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/str魔法方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,18 +252,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.enumerate" />
-        <item itemvalue="Python.range" />
-        <item itemvalue="Python.加号运算符" />
-        <item itemvalue="Python.setdel" />
+        <item itemvalue="Python.魔法方法del" />
+        <item itemvalue="Python.str魔法方法" />
+        <item itemvalue="Python.带参数的init" />
+        <item itemvalue="Python.魔法方法init" />
+        <item itemvalue="Python.类里面获取对象属性" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
-        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -247,6 +293,7 @@
       <workItem from="1740130438982" duration="1295000" />
       <workItem from="1740131794743" duration="148000" />
       <workItem from="1740825631828" duration="37000" />
+      <workItem from="1743344064936" duration="4810000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -256,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740130491418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change the dir">
+      <option name="closed" value="true" />
+      <created>1743344306289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743344306289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +319,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="change the dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the dir" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonTest$random_test__1_.coverage" NAME="random_test (1) 覆盖结果" MODIFIED="1737691836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -272,7 +328,7 @@
     <SUITE FILE_PATH="coverage/PythonTest$in.coverage" NAME="in 覆盖结果" MODIFIED="1738586354717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$replace_join.coverage" NAME="replace_join 覆盖结果" MODIFIED="1738462786645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$set.coverage" NAME="set 覆盖结果" MODIFIED="1738836854461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1738926115081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="类里面获取对象属性 Coverage Results" MODIFIED="1743347445074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Init" />
     <SUITE FILE_PATH="coverage/PythonTest$piece.coverage" NAME="piece 覆盖结果" MODIFIED="1738418051803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$setdel.coverage" NAME="setdel 覆盖结果" MODIFIED="1738920252365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$copy.coverage" NAME="copy 覆盖结果" MODIFIED="1738659918372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -285,7 +341,9 @@
     <SUITE FILE_PATH="coverage/PythonTest$change.coverage" NAME="change 覆盖结果" MODIFIED="1738659370618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$bianli.coverage" NAME="bianli 覆盖结果" MODIFIED="1738836216839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$while.coverage" NAME="while 覆盖结果" MODIFIED="1738340587548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonTest$init.coverage" NAME="带参数的init Coverage Results" MODIFIED="1743348554087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward" />
     <SUITE FILE_PATH="coverage/PythonTest$del.coverage" NAME="del 覆盖结果" MODIFIED="1738588697003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonTest$self.coverage" NAME="类中的self Coverage Results" MODIFIED="1743345456837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Init" />
     <SUITE FILE_PATH="coverage/PythonTest$range.coverage" NAME="range 覆盖结果" MODIFIED="1738921648920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$sumdemo1.coverage" NAME="sumdemo1 覆盖结果" MODIFIED="1737776896894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$demo1.coverage" NAME="demo1 覆盖结果" MODIFIED="1738341686288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -294,6 +352,7 @@
     <SUITE FILE_PATH="coverage/PythonTest$list.coverage" NAME="list 覆盖结果" MODIFIED="1738586167145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$add.coverage" NAME="add 覆盖结果" MODIFIED="1738587989918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$nesting.coverage" NAME="nesting 覆盖结果" MODIFIED="1738660363626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonTest$str.coverage" NAME="str魔法方法 Coverage Results" MODIFIED="1743348796182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward" />
     <SUITE FILE_PATH="coverage/PythonTest$enumerate.coverage" NAME="enumerate 覆盖结果" MODIFIED="1738922030193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$three.coverage" NAME="three 覆盖结果" MODIFIED="1737702173610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$startwith.coverage" NAME="startwith 覆盖结果" MODIFIED="1738585284385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
