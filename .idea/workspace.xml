@@ -4,39 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Multiplication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bianli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capitalize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/del.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enumerate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/find.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nesting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/piece.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replace_join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setadd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setdel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startwith.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sumdemo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/列表推导式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/加号运算符.py" afterDir="false" />
+    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="第一次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/three.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +104,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/加号运算符.py" />
+      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\加号运算符.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enumerate.py" />
+      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\enumerate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +173,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/range.py" />
+      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\range.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +196,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setdel.py" />
+      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\Grammer\setdel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,8 +217,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
-        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -275,11 +244,27 @@
       <workItem from="1738835461674" duration="1650000" />
       <workItem from="1738919743349" duration="3194000" />
       <workItem from="1739868876776" duration="454000" />
+      <workItem from="1740130438982" duration="1295000" />
+      <workItem from="1740131794743" duration="148000" />
+      <workItem from="1740825631828" duration="37000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <option name="closed" value="true" />
+      <created>1740130491418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740130491418</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonTest$random_test__1_.coverage" NAME="random_test (1) 覆盖结果" MODIFIED="1737691836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
