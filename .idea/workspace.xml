@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="简单案例">
-      <change afterPath="$PROJECT_DIR$/forward/继承/认识继承.py" afterDir="false" />
+    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="change">
+      <change afterPath="$PROJECT_DIR$/forward/继承/mro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/继承/单继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/继承/多继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/继承/子类重写父类同名属性和方法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/str魔法方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/str魔法方法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/一个类创建多个对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/一个类创建多个对象.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/带参数的init.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/带参数的init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/搬家具-案例2.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/搬家具-案例2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/烤地瓜-案例1.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/烤地瓜-案例1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/类中的self.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/类中的self.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/类外面添加获取对象属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/类外面添加获取对象属性.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/类里面获取对象属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/类里面获取对象属性.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/面向对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/面向对象.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/魔法方法del.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/魔法方法del.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward/魔法方法init.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/面向对象/魔法方法init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +85,9 @@
     "Python.一个类创建多个对象.executor": "Run",
     "Python.列表推导式.executor": "Run",
     "Python.加号运算符.executor": "Run",
+    "Python.单继承.executor": "Run",
+    "Python.多继承.executor": "Run",
+    "Python.子类重写父类同名属性和方法.executor": "Run",
     "Python.带参数的init.executor": "Run",
     "Python.搬家具-案例2.executor": "Run",
     "Python.烤地瓜-案例1.executor": "Run",
@@ -119,53 +114,7 @@
       <recent name="C:\Code\py-code\PythonTest\Grammer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.认识继承">
-    <configuration name="烤地瓜-案例1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\面向对象\烤地瓜-案例1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="搬家具-案例2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\面向对象\搬家具-案例2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mro">
     <configuration name="认识继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
@@ -181,6 +130,75 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/认识继承.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="单继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/继承" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/单继承.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="多继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/继承" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/多继承.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="子类重写父类同名属性和方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/继承" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/子类重写父类同名属性和方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,29 +230,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="魔法方法del" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\面向对象\魔法方法del.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="带参数的init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
@@ -258,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="str魔法方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,12 +262,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/继承" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\面向对象\str魔法方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/mro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mro" />
+        <item itemvalue="Python.子类重写父类同名属性和方法" />
+        <item itemvalue="Python.多继承" />
+        <item itemvalue="Python.单继承" />
         <item itemvalue="Python.认识继承" />
-        <item itemvalue="Python.搬家具-案例2" />
-        <item itemvalue="Python.烤地瓜-案例1" />
-        <item itemvalue="Python.魔法方法del" />
-        <item itemvalue="Python.str魔法方法" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +320,7 @@
       <workItem from="1740131794743" duration="148000" />
       <workItem from="1740825631828" duration="37000" />
       <workItem from="1743344064936" duration="5024000" />
-      <workItem from="1743387329230" duration="4836000" />
+      <workItem from="1743387329230" duration="7674000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -359,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743390640508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change">
+      <option name="closed" value="true" />
+      <created>1743407185449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743407185449</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +373,8 @@
     <MESSAGE value="change the dir" />
     <MESSAGE value="normal" />
     <MESSAGE value="简单案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单案例" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonTest$random_test__1_.coverage" NAME="random_test (1) 覆盖结果" MODIFIED="1737691836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -379,7 +383,7 @@
     <SUITE FILE_PATH="coverage/PythonTest$_1.coverage" NAME="烤地瓜-案例1 Coverage Results" MODIFIED="1743388828153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward" />
     <SUITE FILE_PATH="coverage/PythonTest$replace_join.coverage" NAME="replace_join 覆盖结果" MODIFIED="1738462786645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$set.coverage" NAME="set 覆盖结果" MODIFIED="1738836854461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="认识继承 Coverage Results" MODIFIED="1743391154019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/继承" />
+    <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="子类重写父类同名属性和方法 Coverage Results" MODIFIED="1743414237360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/继承" />
     <SUITE FILE_PATH="coverage/PythonTest$piece.coverage" NAME="piece 覆盖结果" MODIFIED="1738418051803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$setdel.coverage" NAME="setdel 覆盖结果" MODIFIED="1738920252365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$copy.coverage" NAME="copy 覆盖结果" MODIFIED="1738659918372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
