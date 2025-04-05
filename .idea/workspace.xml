@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="多态、类">
-      <change afterPath="$PROJECT_DIR$/forward/异常/异常.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/异常传递分析.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/异常的finally.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/异常类型及捕获.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/捕获多个指定异常.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/捕获异常描述信息.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/捕获所有异常.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/异常/自定义异常.py" afterDir="false" />
+    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="异常">
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/all列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/my_module1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/my_module2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/mypackage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/mypackage/my_module1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/mypackage/my_module2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/别名.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/导入包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/模块定位顺序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/模块的使用方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/模块和包/调用自己制作的模块.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +63,7 @@
     "Python.Multiplication.executor": "Run",
     "Python.Triangle.executor": "Run",
     "Python.add.executor": "Run",
+    "Python.all列表.executor": "Run",
     "Python.bianli.executor": "Run",
     "Python.capitalize.executor": "Run",
     "Python.change.executor": "Run",
@@ -72,6 +77,7 @@
     "Python.key.executor": "Run",
     "Python.list.executor": "Run",
     "Python.mro.executor": "Run",
+    "Python.my_module1.executor": "Run",
     "Python.nesting.executor": "Run",
     "Python.piece.executor": "Run",
     "Python.range.executor": "Run",
@@ -97,6 +103,7 @@
     "Python.多态.executor": "Run",
     "Python.多继承.executor": "Run",
     "Python.子类重写父类同名属性和方法.executor": "Run",
+    "Python.导入包.executor": "Run",
     "Python.带参数的init.executor": "Run",
     "Python.异常.executor": "Run",
     "Python.异常传递分析.executor": "Run",
@@ -107,6 +114,8 @@
     "Python.捕获异常描述信息.executor": "Run",
     "Python.捕获所有异常.executor": "Run",
     "Python.搬家具-案例2.executor": "Run",
+    "Python.模块定位顺序.executor": "Debug",
+    "Python.模块的使用方法.executor": "Run",
     "Python.烤地瓜-案例1.executor": "Run",
     "Python.私有权限.executor": "Run",
     "Python.类中的self.executor": "Run",
@@ -115,6 +124,7 @@
     "Python.自定义异常.executor": "Run",
     "Python.认识继承.executor": "Run",
     "Python.设置、访问类属性.executor": "Run",
+    "Python.调用自己制作的模块.executor": "Run",
     "Python.静态方法.executor": "Run",
     "Python.面向对象.executor": "Run",
     "Python.魔法方法del.executor": "Run",
@@ -122,6 +132,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Code/py-code/PythonTest/forward/模块和包/mypackage",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -130,14 +141,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Code\py-code\PythonTest\forward\模块和包\mypackage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Code\py-code\PythonTest\forward\多态、类、类方法" />
       <recent name="C:\Code\py-code\PythonTest\forward\面向对象" />
       <recent name="C:\Code\py-code\PythonTest\Grammer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.自定义异常">
-    <configuration name="自定义异常" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.导入包">
+    <configuration name="导入包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/模块和包" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/自定义异常.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/导入包.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="捕获异常描述信息" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="调用自己制作的模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,12 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/模块和包" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/捕获异常描述信息.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/调用自己制作的模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="捕获所有异常" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="模块定位顺序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,35 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/模块和包" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/捕获所有异常.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常传递分析" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/异常传递分析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/模块定位顺序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -459,7 +450,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="异常的finally" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="all列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -468,12 +459,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/模块和包" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/异常的finally.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/all列表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_module1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/模块和包" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/my_module1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,11 +498,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.自定义异常" />
-        <item itemvalue="Python.异常传递分析" />
-        <item itemvalue="Python.异常的finally" />
-        <item itemvalue="Python.捕获所有异常" />
-        <item itemvalue="Python.捕获异常描述信息" />
+        <item itemvalue="Python.导入包" />
+        <item itemvalue="Python.all列表" />
+        <item itemvalue="Python.模块定位顺序" />
+        <item itemvalue="Python.调用自己制作的模块" />
+        <item itemvalue="Python.my_module1" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +546,7 @@
       <workItem from="1743646386919" duration="2690000" />
       <workItem from="1743668750446" duration="2067000" />
       <workItem from="1743777535376" duration="5347000" />
-      <workItem from="1743817288288" duration="2696000" />
+      <workItem from="1743817288288" duration="9555000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -630,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743818223636</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="异常">
+      <option name="closed" value="true" />
+      <created>1743820173404</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743820173404</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +670,8 @@
     <MESSAGE value="类相关" />
     <MESSAGE value="静态方法" />
     <MESSAGE value="多态、类" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态、类" />
+    <MESSAGE value="异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonTest$random_test__1_.coverage" NAME="random_test (1) 覆盖结果" MODIFIED="1737691836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -657,13 +680,14 @@
     <SUITE FILE_PATH="coverage/PythonTest$in.coverage" NAME="in 覆盖结果" MODIFIED="1738586354717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$replace_join.coverage" NAME="replace_join 覆盖结果" MODIFIED="1738462786645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$set.coverage" NAME="set 覆盖结果" MODIFIED="1738836854461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="异常传递分析 Coverage Results" MODIFIED="1743818809380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/异常" />
+    <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="导入包 Coverage Results" MODIFIED="1743832704225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/模块和包" />
     <SUITE FILE_PATH="coverage/PythonTest$piece.coverage" NAME="piece 覆盖结果" MODIFIED="1738418051803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$setdel.coverage" NAME="setdel 覆盖结果" MODIFIED="1738920252365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$copy.coverage" NAME="copy 覆盖结果" MODIFIED="1738659918372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$star.coverage" NAME="star 覆盖结果" MODIFIED="1738342358877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$__1_.coverage" NAME="异常类型及捕获 (1) Coverage Results" MODIFIED="1743782727359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/异常" />
     <SUITE FILE_PATH="coverage/PythonTest$key.coverage" NAME="key 覆盖结果" MODIFIED="1738835666858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonTest$my_module1.coverage" NAME="my_module1 Coverage Results" MODIFIED="1743821944328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/模块和包" />
     <SUITE FILE_PATH="coverage/PythonTest$find.coverage" NAME="find 覆盖结果" MODIFIED="1738461030655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$random.coverage" NAME="random 覆盖结果" MODIFIED="1737691324998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$test2.coverage" NAME="test2 覆盖结果" MODIFIED="1738663306133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -672,6 +696,7 @@
     <SUITE FILE_PATH="coverage/PythonTest$bianli.coverage" NAME="bianli 覆盖结果" MODIFIED="1738836216839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$while.coverage" NAME="while 覆盖结果" MODIFIED="1738340587548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$super.coverage" NAME="super方法 Coverage Results" MODIFIED="1743647202711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/继承" />
+    <SUITE FILE_PATH="coverage/PythonTest$all.coverage" NAME="all列表 Coverage Results" MODIFIED="1743831493824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/模块和包" />
     <SUITE FILE_PATH="coverage/PythonTest$init.coverage" NAME="带参数的init Coverage Results" MODIFIED="1743348554087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward" />
     <SUITE FILE_PATH="coverage/PythonTest$self.coverage" NAME="类中的self Coverage Results" MODIFIED="1743345456837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Init" />
     <SUITE FILE_PATH="coverage/PythonTest$del.coverage" NAME="魔法方法del Coverage Results" MODIFIED="1743348923482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward" />
