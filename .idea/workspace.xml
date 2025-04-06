@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="模块和包">
-      <change afterPath="$PROJECT_DIR$/forward/StudentManagerSystem/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/StudentManagerSystem/managerSystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/StudentManagerSystem/student.py" afterDir="false" />
+    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="学生管理系统骨架">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forward/StudentManagerSystem/managerSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/StudentManagerSystem/managerSystem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -561,7 +559,7 @@
       <workItem from="1743668750446" duration="2067000" />
       <workItem from="1743777535376" duration="5347000" />
       <workItem from="1743817288288" duration="10317000" />
-      <workItem from="1743945232941" duration="1160000" />
+      <workItem from="1743945232941" duration="3460000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -675,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743833257815</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="学生管理系统骨架">
+      <option name="closed" value="true" />
+      <created>1743946438195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743946438195</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +701,8 @@
     <MESSAGE value="多态、类" />
     <MESSAGE value="异常" />
     <MESSAGE value="模块和包" />
-    <option name="LAST_COMMIT_MESSAGE" value="模块和包" />
+    <MESSAGE value="学生管理系统骨架" />
+    <option name="LAST_COMMIT_MESSAGE" value="学生管理系统骨架" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonTest$random_test__1_.coverage" NAME="random_test (1) 覆盖结果" MODIFIED="1737691836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
