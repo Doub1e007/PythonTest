@@ -74,7 +74,7 @@ class StudentManager(object):
 
         # 2.遍历列表，如存在则删除 不存在提示学员不存在
         for i in self.student_list:
-            if i.name == del_name:
+            if del_name == i.name:
                 # 删除该学员对象
                 self.student_list.remove(i)
                 break
@@ -90,7 +90,7 @@ class StudentManager(object):
 
         # 2.遍历列表，如存在则修改 不存在提示学员不存在
         for i in self.student_list:
-            if i.name == modify_name:
+            if modify_name == i.name:
                 i.name = input('姓名：')
                 i.gender = input('性别：')
                 i.tel = input('手机号：')
@@ -102,7 +102,16 @@ class StudentManager(object):
 
     # 2.5 查询学员信息
     def search_student(self):
-        print('查询学员信息')
+        # 1.用户输入要查询的学员姓名
+        search_name = input('请输入要查询的学员姓名：')
+
+        # 2.遍历列表，如存在则显示 不存在提示学员不存在
+        for i in self.student_list:
+            if search_name == i.name:
+                print(f'姓名{i.name}，性别{i.gender}，手机号{i.tel}')
+                break
+        else:
+            print('查无此人')
 
     # 2.6 显示所有学员信息
     def show_student(self):
