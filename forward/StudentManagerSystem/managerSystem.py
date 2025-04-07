@@ -69,7 +69,19 @@ class StudentManager(object):
 
     # 2.3 删除学员
     def del_student(self):
-        print('删除学员')
+        # 1.用户输入要删除的学员姓名
+        del_name = input('请输入要删除的学员姓名：')
+
+        # 2.遍历列表，如存在则删除 不存在提示学员不存在
+        for i in self.student_list:
+            if i.name == del_name:
+                # 删除该学员对象
+                self.student_list.remove(i)
+                break
+        else:
+            print('该学员不存在')
+
+        print(self.student_list)
 
     # 2.4 修改学员信息
     def modify_student(self):
