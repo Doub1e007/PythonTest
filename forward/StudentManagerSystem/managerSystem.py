@@ -1,3 +1,4 @@
+from student import *
 class StudentManager(object):
     def __init__(self):
         # 存储数据所用的列表
@@ -52,7 +53,19 @@ class StudentManager(object):
 
     # 2.2 添加学员
     def add_student(self):
-        print('添加学员')
+        # 1.用户输入姓名、性别、手机号
+        name = input('请输入学员姓名：')
+        gender = input('请输入学员性别：')
+        tel = input('请输入学员手机号：')
+
+        # 2.创建学员对象 -- 类在student文件里 先导入模块 再创建对象
+        student = Student(name, gender, tel)
+
+        # 3.将学员对象添加到列表中
+        self.student_list.append(student)
+
+        print(self.student_list)
+        print(student)
 
     # 2.3 删除学员
     def del_student(self):
