@@ -140,4 +140,18 @@ class StudentManager(object):
 
     # 2.8 加载学员信息
     def load_student(self):
-        print('加载学员信息')
+        # 尝试以 r 模式打开数据1文件 文件不存在则读取数据
+        try:
+            f = open('student.data', 'r')
+        except:
+            f = open('student.data', 'w')
+        else:
+            # 1.读取文件数据
+            data = f.read()
+            # 2.文件中读取的数据都是字符串且字符串内部为字典数据 故需要转换数据类型再转换字典为对象后存储到学院列表
+            # 文件读取出的数据是字符串还原列表类型： [{}] 转换 [学员对象]
+            new_list = eval(data)
+            self.student_list = [Student(i['name'], i['gender'], i['tel']) for i in new_list]
+        finally:
+            # 3.关闭文件
+            f.close()
