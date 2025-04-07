@@ -115,11 +115,28 @@ class StudentManager(object):
 
     # 2.6 显示所有学员信息
     def show_student(self):
-        print('显示所有学员信息')
+        # 打印表头
+        print('姓名\t性别\t手机号')
+
+        # 打印学员数据
+        for i in self.student_list:
+            print(f'{i.name}\t{i.gender}\t{i.tel}')
 
     # 2.7 保存学员信息
     def save_student(self):
-        print('保存学员信息')
+        # 1.打开文件
+        f = open('student.data', 'w')
+
+        # 2.文件写入 数据
+        # 注：文件写入的数据不能是学员对象的内存地址，需要把学员数据转换成列表字典数据再做存储
+        # [文件对象] 转 [字典]
+        new_list = [i.__dict__ for i in self.student_list]
+
+        # 注2：文件内数据要求为字符串类型 需先转换数据类型为字符串再写入数据
+        f.write(str(new_list))
+
+        # 3.关闭文件
+        f.close()
 
     # 2.8 加载学员信息
     def load_student(self):

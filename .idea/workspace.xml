@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="修改学员信息功能实现">
+    <list default="true" id="9e3339cd-e251-4c4a-8eb7-640d8479137a" name="更改" comment="修复了一些问题，查询学员功能实现~~">
+      <change afterPath="$PROJECT_DIR$/forward/多态、类、类方法/__dict__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forward/StudentManagerSystem/managerSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/forward/StudentManagerSystem/managerSystem.py" afterDir="false" />
     </list>
@@ -51,6 +52,7 @@
     "Python.Dict.executor": "Run",
     "Python.Multiplication.executor": "Run",
     "Python.Triangle.executor": "Run",
+    "Python.__dict__.executor": "Run",
     "Python.add.executor": "Run",
     "Python.all列表.executor": "Run",
     "Python.bianli.executor": "Run",
@@ -141,7 +143,7 @@
       <recent name="C:\Code\py-code\PythonTest\Grammer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.__dict__">
     <configuration name="导入包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
@@ -441,6 +443,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="__dict__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/多态、类、类方法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/多态、类、类方法/__dict__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="all列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
@@ -487,29 +512,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_module1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/模块和包" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/my_module1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
@@ -535,11 +537,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__dict__" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.student" />
         <item itemvalue="Python.导入包" />
         <item itemvalue="Python.all列表" />
-        <item itemvalue="Python.my_module1" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +587,7 @@
       <workItem from="1743777535376" duration="5347000" />
       <workItem from="1743817288288" duration="10317000" />
       <workItem from="1743945232941" duration="4367000" />
-      <workItem from="1744016507623" duration="4369000" />
+      <workItem from="1744016507623" duration="5767000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -747,7 +749,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744031907548</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="修复了一些问题，查询学员功能实现~~">
+      <option name="closed" value="true" />
+      <created>1744032430087</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744032430087</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,7 +781,8 @@
     <MESSAGE value="添加学员功能实现" />
     <MESSAGE value="删除学员功能实现" />
     <MESSAGE value="修改学员信息功能实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改学员信息功能实现" />
+    <MESSAGE value="修复了一些问题，查询学员功能实现~~" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了一些问题，查询学员功能实现~~" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonTest$random_test__1_.coverage" NAME="random_test (1) 覆盖结果" MODIFIED="1737691836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -780,6 +791,7 @@
     <SUITE FILE_PATH="coverage/PythonTest$replace_join.coverage" NAME="replace_join 覆盖结果" MODIFIED="1738462786645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$set.coverage" NAME="set 覆盖结果" MODIFIED="1738836854461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$copy.coverage" NAME="copy 覆盖结果" MODIFIED="1738659918372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonTest$__dict__.coverage" NAME="__dict__ Coverage Results" MODIFIED="1744033022561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/多态、类、类方法" />
     <SUITE FILE_PATH="coverage/PythonTest$star.coverage" NAME="star 覆盖结果" MODIFIED="1738342358877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$random.coverage" NAME="random 覆盖结果" MODIFIED="1737691324998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$test2.coverage" NAME="test2 覆盖结果" MODIFIED="1738663306133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -797,7 +809,7 @@
     <SUITE FILE_PATH="coverage/PythonTest$MyFirstPython.coverage" NAME="MyFirstPython 覆盖结果" MODIFIED="1737701336185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$strip.coverage" NAME="strip 覆盖结果" MODIFIED="1738464306538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$setadd.coverage" NAME="setadd 覆盖结果" MODIFIED="1738837057827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonTest$main.coverage" NAME="main Coverage Results" MODIFIED="1744032282064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/StudentManagerSystem" />
+    <SUITE FILE_PATH="coverage/PythonTest$main.coverage" NAME="main Coverage Results" MODIFIED="1744032572815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/StudentManagerSystem" />
     <SUITE FILE_PATH="coverage/PythonTest$.coverage" NAME="导入包 Coverage Results" MODIFIED="1743833202452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forward/模块和包" />
     <SUITE FILE_PATH="coverage/PythonTest$piece.coverage" NAME="piece 覆盖结果" MODIFIED="1738418051803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonTest$setdel.coverage" NAME="setdel 覆盖结果" MODIFIED="1738920252365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
