@@ -85,7 +85,20 @@ class StudentManager(object):
 
     # 2.4 修改学员信息
     def modify_student(self):
-        print('修改学员信息')
+        # 1.用户输入要修改的学员姓名
+        modify_name = input('请输入要修改的学员姓名：')
+
+        # 2.遍历列表，如存在则修改 不存在提示学员不存在
+        for i in self.student_list:
+            if i.name == modify_name:
+                i.name = input('姓名：')
+                i.gender = input('性别：')
+                i.tel = input('手机号：')
+                print(f'修改该学员信息成功，姓名{i.name}，性别{i.gender}，手机号{i.tel}')
+                break
+        else:
+            print('查无此人')
+
 
     # 2.5 查询学员信息
     def search_student(self):
