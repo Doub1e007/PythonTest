@@ -46,90 +46,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Dict.executor": "Run",
-    "Python.Multiplication.executor": "Run",
-    "Python.Triangle.executor": "Run",
-    "Python.add.executor": "Run",
-    "Python.all列表.executor": "Run",
-    "Python.bianli.executor": "Run",
-    "Python.capitalize.executor": "Run",
-    "Python.change.executor": "Run",
-    "Python.copy.executor": "Run",
-    "Python.del.executor": "Run",
-    "Python.demo1.executor": "Run",
-    "Python.enumerate.executor": "Run",
-    "Python.find.executor": "Run",
-    "Python.for.executor": "Run",
-    "Python.in.executor": "Run",
-    "Python.key.executor": "Run",
-    "Python.list.executor": "Run",
-    "Python.mro.executor": "Run",
-    "Python.my_module1.executor": "Run",
-    "Python.nesting.executor": "Run",
-    "Python.piece.executor": "Run",
-    "Python.range.executor": "Run",
-    "Python.replace_join.executor": "Run",
-    "Python.set.executor": "Run",
-    "Python.setadd.executor": "Run",
-    "Python.setdel.executor": "Run",
-    "Python.star.executor": "Run",
-    "Python.startwith.executor": "Run",
-    "Python.strip.executor": "Run",
-    "Python.str魔法方法.executor": "Run",
-    "Python.student.executor": "Run",
-    "Python.sumdemo1.executor": "Run",
-    "Python.super方法.executor": "Run",
-    "Python.test1.executor": "Run",
-    "Python.test2.executor": "Run",
-    "Python.while.executor": "Run",
-    "Python.一个类创建多个对象.executor": "Run",
-    "Python.修改类属性.executor": "Run",
-    "Python.列表推导式.executor": "Run",
-    "Python.加号运算符.executor": "Run",
-    "Python.单继承.executor": "Run",
-    "Python.多层继承.executor": "Run",
-    "Python.多态.executor": "Run",
-    "Python.多继承.executor": "Run",
-    "Python.子类重写父类同名属性和方法.executor": "Run",
-    "Python.导入包.executor": "Run",
-    "Python.带参数的init.executor": "Run",
-    "Python.异常.executor": "Run",
-    "Python.异常传递分析.executor": "Run",
-    "Python.异常的finally.executor": "Run",
-    "Python.异常类型.executor": "Run",
-    "Python.异常类型及捕获 (1).executor": "Run",
-    "Python.捕获多个指定异常.executor": "Run",
-    "Python.捕获异常描述信息.executor": "Run",
-    "Python.捕获所有异常.executor": "Run",
-    "Python.搬家具-案例2.executor": "Run",
-    "Python.模块定位顺序.executor": "Debug",
-    "Python.模块的使用方法.executor": "Run",
-    "Python.烤地瓜-案例1.executor": "Run",
-    "Python.私有权限.executor": "Run",
-    "Python.类中的self.executor": "Run",
-    "Python.类外面添加获取对象属性.executor": "Run",
-    "Python.类里面获取对象属性.executor": "Run",
-    "Python.自定义异常.executor": "Run",
-    "Python.认识继承.executor": "Run",
-    "Python.设置、访问类属性.executor": "Run",
-    "Python.调用自己制作的模块.executor": "Run",
-    "Python.静态方法.executor": "Run",
-    "Python.面向对象.executor": "Run",
-    "Python.魔法方法del.executor": "Run",
-    "Python.魔法方法init.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Code/py-code/PythonTest/forward/模块和包/mypackage",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add.executor&quot;: &quot;Run&quot;,
+    &quot;Python.all列表.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bianli.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.del.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumerate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.in.executor&quot;: &quot;Run&quot;,
+    &quot;Python.key.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_module1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nesting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.piece.executor&quot;: &quot;Run&quot;,
+    &quot;Python.range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_join.executor&quot;: &quot;Run&quot;,
+    &quot;Python.set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setadd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setdel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.star.executor&quot;: &quot;Run&quot;,
+    &quot;Python.startwith.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str魔法方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.student.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sumdemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.super方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.一个类创建多个对象.executor&quot;: &quot;Run&quot;,
+    &quot;Python.修改类属性.executor&quot;: &quot;Run&quot;,
+    &quot;Python.列表推导式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.加号运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.单继承.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多层继承.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多态.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多继承.executor&quot;: &quot;Run&quot;,
+    &quot;Python.子类重写父类同名属性和方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.导入包.executor&quot;: &quot;Run&quot;,
+    &quot;Python.带参数的init.executor&quot;: &quot;Run&quot;,
+    &quot;Python.异常.executor&quot;: &quot;Run&quot;,
+    &quot;Python.异常传递分析.executor&quot;: &quot;Run&quot;,
+    &quot;Python.异常的finally.executor&quot;: &quot;Run&quot;,
+    &quot;Python.异常类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.异常类型及捕获 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.捕获多个指定异常.executor&quot;: &quot;Run&quot;,
+    &quot;Python.捕获异常描述信息.executor&quot;: &quot;Run&quot;,
+    &quot;Python.捕获所有异常.executor&quot;: &quot;Run&quot;,
+    &quot;Python.搬家具-案例2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.模块定位顺序.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.模块的使用方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.烤地瓜-案例1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.私有权限.executor&quot;: &quot;Run&quot;,
+    &quot;Python.类中的self.executor&quot;: &quot;Run&quot;,
+    &quot;Python.类外面添加获取对象属性.executor&quot;: &quot;Run&quot;,
+    &quot;Python.类里面获取对象属性.executor&quot;: &quot;Run&quot;,
+    &quot;Python.自定义异常.executor&quot;: &quot;Run&quot;,
+    &quot;Python.认识继承.executor&quot;: &quot;Run&quot;,
+    &quot;Python.设置、访问类属性.executor&quot;: &quot;Run&quot;,
+    &quot;Python.调用自己制作的模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.静态方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.面向对象.executor&quot;: &quot;Run&quot;,
+    &quot;Python.魔法方法del.executor&quot;: &quot;Run&quot;,
+    &quot;Python.魔法方法init.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Code/py-code/PythonTest/forward/模块和包/mypackage&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Code\py-code\PythonTest\forward\模块和包\mypackage" />
@@ -156,6 +156,98 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/模块和包/导入包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="异常类型及捕获" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\异常\异常类型及捕获.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="静态方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\多态、类、类方法\静态方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="异常" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/异常.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="私有权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/继承" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/私有权限.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,98 +440,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="异常类型及捕获" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\异常\异常类型及捕获.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="静态方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Code\py-code\PythonTest\forward\多态、类、类方法\静态方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异常" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/异常" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/异常/异常.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="私有权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forward/继承" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forward/继承/私有权限.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="all列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="ENV_FILES" value="" />
@@ -559,7 +559,8 @@
       <workItem from="1743668750446" duration="2067000" />
       <workItem from="1743777535376" duration="5347000" />
       <workItem from="1743817288288" duration="10317000" />
-      <workItem from="1743945232941" duration="3460000" />
+      <workItem from="1743945232941" duration="4367000" />
+      <workItem from="1744016507623" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -681,7 +682,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743946438195</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="学生管理系统骨架">
+      <option name="closed" value="true" />
+      <created>1743953303787</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1743953303787</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
